@@ -1,6 +1,5 @@
-aiogram>=3.0
-fastapi
-uvicorn
-pydantic-settings
-python-dotenv
-pytest
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
