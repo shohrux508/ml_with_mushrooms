@@ -11,8 +11,11 @@ import './App.css';
 // ──────────────────────────────────────────────
 // Константы
 // ──────────────────────────────────────────────
-const WS_URL = 'ws://localhost:8000/ws/run';
-const API_BASE = 'http://localhost:8000';
+const IS_DEV = window.location.port === '5173';
+const API_BASE = IS_DEV ? 'http://localhost:8000' : '';
+const WS_URL = IS_DEV
+  ? 'ws://localhost:8000/ws/run'
+  : `${window.location.protocol === 'https:' ? 'wss:' : 'ws:'}//${window.location.host}/ws/run`;
 
 const STEPS = [
   { id: 1, icon: Database,    label: 'Загрузка и EDA'         },

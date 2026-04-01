@@ -1,0 +1,12 @@
+[phases.setup]
+nixPkgs = ["...", "nodejs_20"]
+
+[phases.install]
+cmds = [
+    "pip install -r requirements.txt",
+    "cd frontend && npm install && npm run build",
+    "python ml/train_pipeline.py"
+]
+
+[start]
+cmd = "python -m uvicorn api:app --host 0.0.0.0 --port ${PORT:-8000}"
