@@ -1,0 +1,16 @@
+# Исключаем локальные папки зависимостей и данные
+node_modules
+.venv
+__pycache__
+*.pyc
+.git
+.pytest_cache
+
+# Исключаем локальные артефакты сборки
+frontend/node_modules
+frontend/dist
+
+# Исключаем локальные графики (будут перегенерированы в контейнере)
+*.png
+ml/plots/*.png
+ml/models/*.pkl
