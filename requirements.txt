@@ -4,3 +4,7 @@ matplotlib
 seaborn
 scikit-learn
 pytest
+fastapi
+uvicorn[standard]
+mlxtend
+joblib

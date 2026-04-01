@@ -1,0 +1,21 @@
+antecedents,consequents,support,confidence,lift
+"ring_number=o, ring_type=e, veil_color=w","stalkshape=t, bruises=f",0.3072378138847858,0.9689440993788819,3.153726708074534
+"ring_number=o, gill_attachment=f, ring_type=e, veil_color=w","stalkshape=t, bruises=f",0.3072378138847858,0.9689440993788819,3.153726708074534
+"stalkshape=t, gill_attachment=f, bruises=f","ring_number=o, ring_type=e, veil_color=w",0.3072378138847858,1.0,3.153726708074534
+"stalkshape=t, bruises=f","ring_number=o, gill_attachment=f, ring_type=e, veil_color=w",0.3072378138847858,1.0,3.153726708074534
+"stalkshape=t, bruises=f","ring_number=o, ring_type=e, veil_color=w",0.3072378138847858,1.0,3.153726708074534
+"ring_number=o, ring_type=e, veil_color=w","stalkshape=t, gill_attachment=f, bruises=f",0.3072378138847858,0.9689440993788819,3.153726708074534
+"stalkshape=t, bruises=f","ring_number=o, ring_type=e",0.3072378138847858,1.0,3.1439628482972135
+"ring_number=o, ring_type=e","stalkshape=t, bruises=f",0.3072378138847858,0.9659442724458205,3.1439628482972135
+"stalkshape=t, bruises=f, veil_color=w","ring_number=o, ring_type=e",0.3072378138847858,1.0,3.1439628482972135
+"stalkshape=t, gill_attachment=f, bruises=f, veil_color=w","ring_number=o, ring_type=e",0.3072378138847858,1.0,3.1439628482972135
+"stalkshape=t, bruises=f, veil_color=w","ring_number=o, gill_attachment=f, ring_type=e",0.3072378138847858,1.0,3.1439628482972135
+"ring_number=o, ring_type=e","stalkshape=t, gill_attachment=f, bruises=f, veil_color=w",0.3072378138847858,0.9659442724458205,3.1439628482972135
+"ring_number=o, ring_type=e","stalkshape=t, bruises=f, veil_color=w",0.3072378138847858,0.9659442724458205,3.1439628482972135
+"ring_number=o, gill_attachment=f, ring_type=e","stalkshape=t, bruises=f, veil_color=w",0.3072378138847858,0.9659442724458205,3.1439628482972135
+"ring_number=o, gill_attachment=f, ring_type=e","stalkshape=t, bruises=f",0.3072378138847858,0.9659442724458205,3.1439628482972135
+"stalkshape=t, bruises=f","ring_number=o, gill_attachment=f, ring_type=e",0.3072378138847858,1.0,3.1439628482972135
+"ring_number=o, ring_type=e","stalkshape=t, gill_attachment=f, bruises=f",0.3072378138847858,0.9659442724458205,3.1439628482972135
+"stalkshape=t, gill_attachment=f, bruises=f","ring_number=o, ring_type=e",0.3072378138847858,1.0,3.1439628482972135
+"ring_type=e, veil_color=w","stalkshape=t, bruises=f",0.3072378138847858,0.9017341040462428,2.934971098265896
+"stalkshape=t, bruises=f","ring_type=e, veil_color=w",0.3072378138847858,1.0,2.934971098265896
